@@ -252,7 +252,7 @@ keep_newest_rows <- function(thedata,key,datef)
 
 ####
 #Includes:
-#Notes: 
+#Notes: Do a quick left join of two dataframes. Try to maintain data types (especially dates). 
 left_join_quick <- function(thedata1,thedata2,byx,byy=NA,smart=FALSE,ally=FALSE)
 {
   temp = 0
@@ -296,7 +296,7 @@ fix_column_order <- function(thedata,column_order)
 
 ####
 #Includes: 
-#Notes: 
+#Notes: Just gets the year from a date.
 date_to_year <- function(thedate)
 {
   return(as.integer(format(thedate, format="%Y")))
