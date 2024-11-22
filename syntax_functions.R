@@ -301,3 +301,10 @@ date_to_year <- function(thedate)
 {
   return(as.integer(format(thedate, format="%Y")))
 }
+
+####
+#Includes: 
+#Notes: R returns same thing for typeof and class when object is an array or single value so we need this workaround
+is_array <- function(cobj){
+  return(is.vector(cobj) && length(cobj) > 1)
+}
