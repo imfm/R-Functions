@@ -1,5 +1,5 @@
 #######
-# These are relatively simple functions meant to make the most gnarly and obnoxious R syntax clearer and more easy to use.
+# These are relatively simple functions meant to make the most obtuse R syntax clearer and more easy to use.
 #######
 
 require(pacman)
