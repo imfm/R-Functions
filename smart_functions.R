@@ -2,9 +2,6 @@
 # These are functions that deal with R's dumbness and inconsistency, particularly when it comes to dealing with NA
 ####
 
-require(pacman)
-#pacman::p_load()
-
 ####
 #Includes: 
 #Notes: 'Smart' mean. Removes NA before pasting. Not really necessary since base mean has a na.rm parameter
