@@ -213,7 +213,7 @@ is_nas <- function(thedata)
 
 ####
 #Includes: 
-#Notes: Stupid R
+#Notes: Checks if NA, "NA" or 0. Doesn't mind if passed an array.
 is_nazero <- function(val)
 {
   temp = 0
@@ -241,7 +241,7 @@ count_string_matches <- function(stra,find)
 
 ####
 #Includes:
-#Notes: 
+#Notes: datef is the name of the date field
 keep_newest_rows <- function(thedata,key,datef)
 {
   temp = 0
