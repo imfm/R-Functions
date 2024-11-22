@@ -1,5 +1,5 @@
 ####
-# These are functions that deal with R's dumbness and inconsistency, particularly when it comes to dealing with NA
+# These are functions that deal with R's inconsistency/tendency to throw unecessary errors, particularly when it comes to dealing with NA.
 ####
 
 ####
