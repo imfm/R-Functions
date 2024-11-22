@@ -205,7 +205,7 @@ is_empty_dataframe <- function(thedata)
 
 ####
 #Includes: 
-#Notes: because is.na is dumb, it throws an error if you give it a vector or a dataframe
+#Notes: is.na throws an error if you give it a vector or a dataframe. this does not.
 is_nas <- function(thedata)
 {
   return(all(is.na(thedata)))
